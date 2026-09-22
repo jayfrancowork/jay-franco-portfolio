@@ -3,49 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jay Franco — Web Developer, WordPress Developer and UI/UX Designer.">
+
+  <meta
+    name="description"
+    content="Jay Franco — Web Developer, WordPress Developer and UI/UX Designer."
+  >
+
   <title>Jay Franco | Web Developer & UI/UX Designer</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- =========================
+     HEADER
+========================= -->
+
 <header class="header">
+
   <nav class="nav container">
 
     <a href="#home" class="brand">
+
       <span class="brand-mark">JF</span>
+
       <span>
         <strong>Jay Franco</strong>
         <small>Web Developer & UI/UX Enthusiast</small>
       </span>
+
     </a>
 
-    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <button class="menu-btn" aria-label="Open menu">
+      ☰
+    </button>
 
     <div class="nav-links">
+
       <a class="active" href="#home">Home</a>
+
       <a href="#about">About</a>
+
       <a href="#skills">Skills</a>
+
       <a href="#projects">Projects</a>
+
       <a href="#experience">Experience</a>
+
       <a href="#education">Education</a>
+
       <a href="#contact">Contact</a>
+
       <a class="nav-button" href="#contact">
         Get In Touch <span>→</span>
       </a>
+
     </div>
 
   </nav>
+
 </header>
 
 
+<!-- =========================
+     MAIN
+========================= -->
+
 <main id="home">
+
 
 <!-- =========================
      HERO SECTION
@@ -70,7 +104,9 @@
       WooCommerce and modern web technologies.
     </p>
 
+
     <div class="hero-buttons">
+
       <a href="#projects" class="btn primary">
         View My Work <span>→</span>
       </a>
@@ -78,48 +114,91 @@
       <a href="#contact" class="btn secondary">
         Contact Me <span>✉</span>
       </a>
+
     </div>
 
+
     <div class="trust-points">
-      <div>⚡ <span>Fast Delivery</span></div>
-      <div>&lt;/&gt; <span>Clean Code</span></div>
-      <div>♡ <span>Client Focused</span></div>
+
+      <div>
+        ⚡ <span>Fast Delivery</span>
+      </div>
+
+      <div>
+        &lt;/&gt; <span>Clean Code</span>
+      </div>
+
+      <div>
+        ♡ <span>Client Focused</span>
+      </div>
+
     </div>
 
   </div>
 
 
-  <!-- HERO PHOTO -->
+  <!-- =========================
+       HERO PROFILE IMAGE
+  ========================= -->
 
   <div class="hero-visual reveal">
 
     <div class="blue-circle circle-one"></div>
+
     <div class="blue-circle circle-two"></div>
+
     <div class="blue-circle circle-three"></div>
 
-    <div class="photo-placeholder">
+
+    <!-- PROFILE PHOTO
+         Height intentionally set to 490px inline
+    -->
+
+    <div
+      class="photo-placeholder"
+      style="height: 490px; overflow: hidden;"
+    >
+
       <img
         src="images/portfolio-profile.png"
         alt="Jay Franco - Web Developer"
+        style="
+          width: 100%;
+          height: 490px;
+          object-fit: cover;
+          object-position: center 20%;
+          display: block;
+        "
       >
+
     </div>
 
+
+    <!-- FLOATING CODE CARD -->
+
     <div class="floating-card code-card">
+
       <strong>&lt;/&gt;</strong>
 
       <span>
         Clean Code<br>
         <small>Better Results</small>
       </span>
+
     </div>
 
+
+    <!-- FLOATING EXPERIENCE CARD -->
+
     <div class="floating-card years-card">
+
       <strong>3+</strong>
 
       <span>
         Years<br>
         Experience
       </span>
+
     </div>
 
   </div>
@@ -134,6 +213,7 @@
 <section class="section" id="about">
 
   <div class="container about-grid">
+
 
     <div class="about-photo reveal">
 
@@ -171,40 +251,46 @@
 
       <p>
         I enjoy turning ideas into functional websites and helping businesses
-        build a stronger online presence. I am always eager to learn, improve,
-        and take on new challenges.
+        build a stronger online presence. I am always eager to learn,
+        improve, and take on new challenges.
       </p>
 
 
       <div class="about-features">
 
         <div>
+
           <b>✓</b>
 
           <span>
             <strong>Reliable</strong>
             <small>& Professional</small>
           </span>
+
         </div>
 
 
         <div>
+
           <b>✓</b>
 
           <span>
             <strong>Clear</strong>
             <small>Communication</small>
           </span>
+
         </div>
 
 
         <div>
+
           <b>✓</b>
 
           <span>
             <strong>Client</strong>
             <small>Focused</small>
           </span>
+
         </div>
 
       </div>
@@ -225,6 +311,7 @@
   <div class="container">
 
     <div class="skills-layout">
+
 
       <div class="skills-intro reveal">
 
@@ -251,64 +338,174 @@
 
       <div class="skills-grid">
 
-        <div class="skill reveal">
-          <span class="skill-icon wp">W</span>
-          <strong>WordPress</strong>
-          <small>CMS</small>
-        </div>
 
         <div class="skill reveal">
-          <span class="skill-icon el">E</span>
-          <strong>Elementor</strong>
-          <small>Page Builder</small>
+
+          <span class="skill-icon wp">
+            W
+          </span>
+
+          <strong>
+            WordPress
+          </strong>
+
+          <small>
+            CMS
+          </small>
+
         </div>
 
-        <div class="skill reveal">
-          <span class="skill-icon woo">Woo</span>
-          <strong>WooCommerce</strong>
-          <small>E-commerce</small>
-        </div>
 
         <div class="skill reveal">
-          <span class="skill-icon fig">F</span>
-          <strong>Figma</strong>
-          <small>UI/UX Design</small>
+
+          <span class="skill-icon el">
+            E
+          </span>
+
+          <strong>
+            Elementor
+          </strong>
+
+          <small>
+            Page Builder
+          </small>
+
         </div>
 
-        <div class="skill reveal">
-          <span class="skill-icon html">&lt;/&gt;</span>
-          <strong>HTML / CSS / JS</strong>
-          <small>Web Development</small>
-        </div>
 
         <div class="skill reveal">
-          <span class="skill-icon ui">UI</span>
-          <strong>UI/UX</strong>
-          <small>Design</small>
+
+          <span class="skill-icon woo">
+            Woo
+          </span>
+
+          <strong>
+            WooCommerce
+          </strong>
+
+          <small>
+            E-commerce
+          </small>
+
         </div>
 
-        <div class="skill reveal">
-          <span class="skill-icon resp">↗</span>
-          <strong>Responsive</strong>
-          <small>Design</small>
-        </div>
 
         <div class="skill reveal">
-          <span class="skill-icon fix">⚙</span>
-          <strong>Troubleshooting</strong>
-          <small>& Maintenance</small>
+
+          <span class="skill-icon fig">
+            F
+          </span>
+
+          <strong>
+            Figma
+          </strong>
+
+          <small>
+            UI/UX Design
+          </small>
+
         </div>
 
-        <div class="skill reveal">
-          <span class="skill-icon code">&lt;/&gt;</span>
-          <strong>Theme / Plugin</strong>
-          <small>Customization</small>
-        </div>
 
         <div class="skill reveal">
-          <span class="skill-icon design">✦</span>
-          <strong>Figma to Website</strong>
-          <small>Implementation</small>
+
+          <span class="skill-icon html">
+            &lt;/&gt;
+          </span>
+
+          <strong>
+            HTML / CSS / JS
+          </strong>
+
+          <small>
+            Web Development
+          </small>
+
+        </div>
+
+
+        <div class="skill reveal">
+
+          <span class="skill-icon ui">
+            UI
+          </span>
+
+          <strong>
+            UI/UX
+          </strong>
+
+          <small>
+            Design
+          </small>
+
+        </div>
+
+
+        <div class="skill reveal">
+
+          <span class="skill-icon resp">
+            ↗
+          </span>
+
+          <strong>
+            Responsive
+          </strong>
+
+          <small>
+            Design
+          </small>
+
+        </div>
+
+
+        <div class="skill reveal">
+
+          <span class="skill-icon fix">
+            ⚙
+          </span>
+
+          <strong>
+            Troubleshooting
+          </strong>
+
+          <small>
+            & Maintenance
+          </small>
+
+        </div>
+
+
+        <div class="skill reveal">
+
+          <span class="skill-icon code">
+            &lt;/&gt;
+          </span>
+
+          <strong>
+            Theme / Plugin
+          </strong>
+
+          <small>
+            Customization
+          </small>
+
+        </div>
+
+
+        <div class="skill reveal">
+
+          <span class="skill-icon design">
+            ✦
+          </span>
+
+          <strong>
+            Figma to Website
+          </strong>
+
+          <small>
+            Implementation
+          </small>
+
         </div>
 
       </div>
@@ -327,6 +524,7 @@
 <section class="section" id="projects">
 
   <div class="container projects-layout">
+
 
     <div class="projects-intro reveal">
 
@@ -352,16 +550,24 @@
 
     <div class="projects-grid">
 
+
+      <!-- PROJECT 1 -->
+
       <article class="project reveal">
 
         <div class="project-screen screen-one">
-          <span>BUSINESS WEBSITE</span>
+
+          <span>
+            BUSINESS WEBSITE
+          </span>
 
           <b>
             Grow Your<br>
             Business Online
           </b>
+
         </div>
+
 
         <div class="project-body">
 
@@ -370,8 +576,15 @@
           </h3>
 
           <div class="tags">
-            <span>WordPress</span>
-            <span>Elementor</span>
+
+            <span>
+              WordPress
+            </span>
+
+            <span>
+              Elementor
+            </span>
+
           </div>
 
           <a href="#contact">
@@ -383,16 +596,23 @@
       </article>
 
 
+      <!-- PROJECT 2 -->
+
       <article class="project reveal">
 
         <div class="project-screen screen-two">
-          <span>E-COMMERCE</span>
+
+          <span>
+            E-COMMERCE
+          </span>
 
           <b>
             Premium Products<br>
             for Your Store
           </b>
+
         </div>
+
 
         <div class="project-body">
 
@@ -401,8 +621,15 @@
           </h3>
 
           <div class="tags">
-            <span>WooCommerce</span>
-            <span>WordPress</span>
+
+            <span>
+              WooCommerce
+            </span>
+
+            <span>
+              WordPress
+            </span>
+
           </div>
 
           <a href="#contact">
@@ -414,16 +641,23 @@
       </article>
 
 
+      <!-- PROJECT 3 -->
+
       <article class="project reveal">
 
         <div class="project-screen screen-three">
-          <span>PORTFOLIO</span>
+
+          <span>
+            PORTFOLIO
+          </span>
 
           <b>
             Creative Design<br>
             for Modern Brands
           </b>
+
         </div>
+
 
         <div class="project-body">
 
@@ -432,9 +666,19 @@
           </h3>
 
           <div class="tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
+
+            <span>
+              HTML
+            </span>
+
+            <span>
+              CSS
+            </span>
+
+            <span>
+              JavaScript
+            </span>
+
           </div>
 
           <a href="#contact">
@@ -473,7 +717,9 @@
         Work Experience
       </h2>
 
+
       <div class="timeline">
+
 
         <div class="timeline-item">
 
@@ -563,6 +809,7 @@
         My Education
       </h2>
 
+
       <div class="education-card">
 
         <div class="edu-icon">
@@ -589,10 +836,14 @@
 
 
       <div class="quote-card">
-        “Great websites aren't just about design; they're about solving real problems.”
+
+        “Great websites aren't just about design;
+        they're about solving real problems.”
+
         <small>
           — Jay Franco
         </small>
+
       </div>
 
     </div>
@@ -615,40 +866,74 @@
         Feel free to reach out.
       </p>
 
+
       <div class="contact-list">
 
+
         <div>
+
           ✉
 
           <span>
-            <small>Email</small>
-            <strong>jayfrancowork@gmail.com</strong>
+
+            <small>
+              Email
+            </small>
+
+            <strong>
+              jayfrancowork@gmail.com
+            </strong>
+
           </span>
+
         </div>
 
 
         <div>
+
           ☎
 
           <span>
-            <small>Phone</small>
-            <strong>YOUR PHONE NUMBER</strong>
+
+            <small>
+              Phone
+            </small>
+
+            <strong>
+              YOUR PHONE NUMBER
+            </strong>
+
           </span>
+
         </div>
 
 
         <div>
+
           ⌖
 
           <span>
-            <small>Location</small>
-            <strong>Philippines</strong>
+
+            <small>
+              Location
+            </small>
+
+            <strong>
+              Philippines
+            </strong>
+
           </span>
+
         </div>
+
 
       </div>
 
-      <a class="btn primary" href="mailto:jayfrancowork@gmail.com">
+
+      <a
+        class="btn primary"
+        href="mailto:jayfrancowork@gmail.com"
+      >
         Send Message →
       </a>
 
@@ -669,6 +954,7 @@
 
   <div class="container footer-inner">
 
+
     <div class="brand footer-brand">
 
       <span class="brand-mark">
@@ -676,8 +962,15 @@
       </span>
 
       <span>
-        <strong>Jay Franco</strong>
-        <small>Web Developer & UI/UX Enthusiast</small>
+
+        <strong>
+          Jay Franco
+        </strong>
+
+        <small>
+          Web Developer & UI/UX Enthusiast
+        </small>
+
       </span>
 
     </div>
@@ -685,15 +978,24 @@
 
     <div class="socials">
 
-      <a href="#" aria-label="LinkedIn">
+      <a
+        href="#"
+        aria-label="LinkedIn"
+      >
         in
       </a>
 
-      <a href="#" aria-label="GitHub">
+      <a
+        href="#"
+        aria-label="GitHub"
+      >
         GH
       </a>
 
-      <a href="mailto:jayfrancowork@gmail.com" aria-label="Email">
+      <a
+        href="mailto:jayfrancowork@gmail.com"
+        aria-label="Email"
+      >
         ✉
       </a>
 
@@ -701,13 +1003,18 @@
 
 
     <p>
-      © <span id="year"></span> Jay Franco. All rights reserved.
+      © <span id="year"></span>
+      Jay Franco. All rights reserved.
     </p>
 
   </div>
 
 </footer>
 
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
 
 <script src="script.js"></script>
 
